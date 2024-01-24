@@ -10,5 +10,16 @@ Desc:
 Ans: Day1.js
 
 Explanation: 
+    using index variable in code maintaining 2*n size of output array
 
 Time and Space complexity: 
+    O(n) is the time complaxity 
+        n is length of numns array 
+    O(n) is the space complexity
+        code creates a new array of size 2n
+    
+    O(n) + O(n) = O(n)
+
+
+-----------------------------------------
+
