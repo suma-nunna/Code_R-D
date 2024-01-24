@@ -1,15 +1,14 @@
+
 function concatenateArray(nums) {
+    // output array
     let ans = [];
-    let index = 0;
+
+    // stores the nums.length value, inserting one element from the end of the array
+    let len = nums.length;
 
     for (let i = 0; i < nums.length; i++) {
-        ans[index++] = nums[i];
-    }
-
-    console.log(ans, index);
-
-    for (let i = 0; i < nums.length; i++) {
-        ans[index++] = nums[i];
+        // intersting an element starts from 0 index and 3 index as well
+        ans[i] = ans[len++] = nums[i];
     }
 
     return ans;
