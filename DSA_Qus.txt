@@ -13,7 +13,7 @@ Explanation:
     using index variable in code maintaining 2*n size of output array
 
 Time and Space complexity: 
-    O(n) is the time complaxity 
+    O(n) is the time complexity 
         n is length of numns array 
     O(n) is the space complexity
         code creates a new array of size 2n
@@ -23,3 +23,25 @@ Time and Space complexity:
 
 -----------------------------------------
 
+Day2:
+
+Qus: Shuffle the Array?
+
+Desc: 
+- Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
+- Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+
+Ans: Day2.js
+
+Explanation: 
+    n variable - store the middle arr index value 
+
+Time and Space complexity: 
+    O(n) - Time complexity
+        function iterates over the array once
+    O(n) - Space complexity
+        creates a new array of the same length as the input array to store the shuffled elements
+
+
+--------------------------------------------
+    
