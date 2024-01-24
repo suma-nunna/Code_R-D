@@ -1,0 +1,14 @@
+Day1:
+
+Qus: Concatination of Array?
+
+Desc: 
+- Given an integer array nums of length n, you want to create an array ans of length 2n where ans[i] and ans[i + n] == nums[i] for 0 <= i < n (O-indexed).
+- Specifically, ans is the concatenation of two nums arrays.
+- Return the array ans.
+
+Ans: Day1.js
+
+Explanation: 
+
+Time and Space complexity: 
